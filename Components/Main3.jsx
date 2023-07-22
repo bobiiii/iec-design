@@ -5,9 +5,9 @@ import box3 from "../assets/images/main3/box3.png"
 
 function Main3() {
     return (
-        <div className='bg-[#EFEFFF] w-full py-5 my-5
+        <div className='bg-[#EFEFFF] w-full max-w-[1440px] mx-auto py-5 my-5
         '>
-            <div className=' w-4/5 mx-auto'>
+            <div className=' w-4/5  mx-auto'>
             <div className='flex justify-between items-center'>
                 <div className=''>
                     <h3 className='text-xl '>Our Offerings</h3>

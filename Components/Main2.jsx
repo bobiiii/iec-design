@@ -5,7 +5,7 @@ import img2 from "../assets/images/main2/img2.png"
 function Main2() {
   return (
     <div className=' h-auto w-full'>
-        <div className='md:w-4/5 mx-auto   md:flex items-center justify-between'>
+        <div className='md:w-4/5 mx-auto max-w-[1440px]  md:flex items-center justify-between'>
         <div className='flex-1 px-5'>
             <h3 className='font-bold text-3xl py-3'>Tech Apprenticeship Program</h3>
             <p>Registration for our Tech Apprenticeship Program is now open! Dont miss the opportunity to gain hands-on experience, mentorship, and industry-relevant skills. Apply now to secure your spot and embark on a rewarding tech journey.</p>

@@ -19,7 +19,7 @@ function Header() {
 
   return (
     
-<nav class=" w-100 max-w-screen-2xl bg-white border-gray-200 dark:bg-gray-900">
+<nav class=" w-100 max-w-[1440px] mx-auto bg-white border-gray-200 dark:bg-gray-900">
   <div class=" flex  flex-nowrap items-center justify-between mx-auto p-4">
   <a href="https://iec.com/" class="flex items-center   w-100">
       <Image src={logo}    class="w-64 min-w-min h-9  ms-2" alt="Flowbite Logo" />
