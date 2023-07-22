@@ -19,19 +19,19 @@ function Header() {
 
   return (
     
-<nav class=" container bg-white border-gray-200 dark:bg-gray-900">
-  <div class="max-w-screen-xl flex  flex-nowrap items-center justify-between mx-auto p-4">
-  <a href="https://iec.com/" class="flex items-center  flex-shrink-0 w-100">
-      <Image src={logo}   class="w-64 min-w-full h-8 mr-3" alt="Flowbite Logo" />
+<nav class=" w-100 max-w-screen-2xl bg-white border-gray-200 dark:bg-gray-900">
+  <div class=" flex  flex-nowrap items-center justify-between mx-auto p-4">
+  <a href="https://iec.com/" class="flex items-center   w-100">
+      <Image src={logo}    class="w-64 min-w-min h-9  ms-2" alt="Flowbite Logo" />
       
   </a>
   <div class="flex items-center md:order-2">
       <button type="button" class="flex mr-3 text-sm bg-gray-800 rounded-full md:mr-0 focus:ring-4 focus:ring-gray-300 dark:focus:ring-gray-600" id="user-menu-button" aria-expanded="false" data-dropdown-toggle="user-dropdown" data-dropdown-placement="bottom">
         <span class="sr-only">Open user menu</span>
-        <Image class="w-8 h-8 rounded-full" src={userPic} alt="user photo"/>
+        <Image class="w-14 h-10 rounded-full" src={userPic} alt="user photo"/>
       </button>
       
-      <div class="z-50 hidden my-4 text-base list-none bg-white divide-y divide-gray-100 rounded-lg shadow dark:bg-gray-700 dark:divide-gray-600" id="user-dropdown">
+      <div class="z-50 hidden  my-4 text-base list-none bg-white divide-y divide-gray-100 rounded-lg shadow dark:bg-gray-700 dark:divide-gray-600" id="user-dropdown">
         <div class="px-4 py-3">
           <span class="block text-sm text-gray-900 dark:text-white">Bonnie Green</span>
           <span class="block text-sm  text-gray-500 truncate dark:text-gray-400">name@flowbite.com</span>
@@ -61,8 +61,8 @@ function Header() {
 
 
   
-  <div class="items-center justify-between hidden w-full  md:flex md:items-center  md:w-auto md:order-1 me-4" id="navbar-user">
-    <ul class="flex flex-col md:items-center  font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-5 md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+  <div class="items-center justify-end hidden w-full   md:flex md:items-center   md:order-1 me-4" id="navbar-user">
+    <ul class="flex flex-col text-center text-base  md:items-center  font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-5 md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
       <li>
         <a href="#" class="block py-2 pl-3 pr-4 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 md:dark:text-blue-500" aria-current="page">Calender</a>
       </li>
@@ -85,7 +85,7 @@ function Header() {
       </button>
 
       {isOpen && (
-        <div className="absolute  mt-2 py-2 w-35 bg-white border rounded-md shadow-lg">
+        <div className="absolute z-10  mt-2 py-2 w-35 bg-white border rounded-md shadow-lg">
           {/* Dropdown items */}
           <a href="#" className="block px-4 py-2 text-gray-800 hover:bg-gray-200"> React</a>
           <a href="#" className="block px-4 py-2 text-gray-800 hover:bg-gray-200">Next</a>
@@ -93,14 +93,9 @@ function Header() {
         </div>
       )}
     </div>
-
-
 </li>
-
-
-
-      <li>
-        <a href="#" class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Apprentices</a>
+ <li>
+        <a href="#" class="block py-2 pl-3 pr-4 fon text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Apprentices</a>
       </li>
       <li>
         <a href="#" class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">IEC Fellows</a>
